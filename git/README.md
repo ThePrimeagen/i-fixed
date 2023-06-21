@@ -21,6 +21,7 @@ I need issues of git and then we will fix them
 - Commit messages
     - merge commit messages
 - .gitignore
+- git blame / praise
 
 ## Things that suck for Everyone
 
@@ -62,3 +63,5 @@ We need to unify theme, half is trees, with branches and trunks and pruning, and
 submodules are banned from use. talking about submodules is banned. 
 
 the only precommit hook allowed is one that tweets "I'm coding!"
+
+No more git blame or git praise. I want `git who`, once I know who wrote it, then I'll decide if I'm gonna praise or blame.
