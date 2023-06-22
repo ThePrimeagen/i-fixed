@@ -60,7 +60,7 @@ If you call --force when trying to push to master, and a call with HR is automat
 
 We need to unify theme, half is trees, with branches and trunks and pruning, and other parts are toliet themed. So I think we make it all bathroom themed.
 
-submodules are banned from use. talking about submodules is banned.
+submodules are banned from use. if you suggest using submodules your name will appear exclusively in Git Blame until the next mention of submodules.
 
 the only precommit hook allowed is one that tweets "I'm coding!"
 
