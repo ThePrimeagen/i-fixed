@@ -66,6 +66,9 @@ the only precommit hook allowed is one that tweets "I'm coding!"
 
 No more git blame or git praise. I want `git who`, once I know who wrote it, then I'll decide if I'm gonna praise or blame.
 
+Branches have to all be named, with the original, author and date
+    - This isn't funny, need a joke
+
 ## Categorizing Tweets
 
 Don't Teach In College (3)
@@ -164,12 +167,17 @@ Window's Users
 - Jokes
     - The Name and The Theme
     - Commit Messages & Default Editor
+    - Git Branch naming Rules
     - BAN rebase VS merge Argument
         - Merge Conflicts & Rebasing
+    - git blame/praise is now named git who
+    - git cherry-pick is now called git yoink
     - --force calls HR
     - Using Submodules BANNED
-    - Using GUI Banned
+    - Using GUI BANNED
+    - Git Flow BANNED
     - Precommit Hooks tweets
+    - .gitignore + .gitwatch
 - Outro w/ C++ tweet
 
 ## Script
@@ -181,6 +189,7 @@ Git has won the version control wars
 New programmers don't even know the difference between Github and Git
 
 Yet everyday there are millions of juniors around the world struggling with merge conflicts.
+Making repos that look like a game of Guitar Hero
 
 Many have tried to fix Git before: 
 
@@ -200,7 +209,6 @@ First Things First:
     The name git: it's an insult!
 
 Next this themeing: it's half tree based and half toliet based
-
 
 ### Outro
 
