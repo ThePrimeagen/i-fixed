@@ -162,6 +162,14 @@ Window's Users
 
 - Intro
 - Jokes
+    - The Name and The Theme
+    - Commit Messages & Default Editor
+    - BAN rebase VS merge Argument
+        - Merge Conflicts & Rebasing
+    - --force calls HR
+    - Using Submodules BANNED
+    - Using GUI Banned
+    - Precommit Hooks tweets
 - Outro w/ C++ tweet
 
 ## Script
@@ -191,6 +199,7 @@ But it's time I lay down the law, and fix this mess Linus got us into.
 First Things First:
     The name git: it's an insult!
 
+Next this themeing: it's half tree based and half toliet based
 
 
 ### Outro
