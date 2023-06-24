@@ -157,3 +157,42 @@ Detached Head (1)
 
 Window's Users
  - https://twitter.com/_rauldias_/status/1671661401507545091
+
+## Outline
+
+- Intro
+- Jokes
+- Outro w/ C++ tweet
+
+## Script
+
+### Intro
+
+Git has won the version control wars
+
+New programmers don't even know the difference between Github and Git
+
+Yet everyday there are millions of juniors around the world struggling with merge conflicts.
+
+Many have tried to fix Git before: 
+
+Papers have been written
+https://homes.cs.washington.edu/~rjust/courses/CSE403/gitless.pdf
+
+People have tried making it more friendly: tig, gitless, cogito
+all with little adoption!
+
+New GUI clients pop-up everyday, so grifters can pump out: "Top 10 Git GUI clients for developers in 2023"
+
+But it's time I lay down the law, and fix this mess Linus got us into.
+
+### Jokes 
+
+First Things First:
+    The name git: it's an insult!
+
+
+
+### Outro
+
+Now I'm now going to implement any of this, that's left as an excercise for the viewer.
