@@ -69,6 +69,10 @@ No more git blame or git praise. I want `git who`, once I know who wrote it, the
 Branches have to all be named, with the original, author and date
     - This isn't funny, need a joke
 
+Know knows how the internals work
+I don't have a trades degree
+(I don't have a degree in plumbing)
+
 ## Categorizing Tweets
 
 Don't Teach In College (3)
@@ -85,6 +89,8 @@ Hub (4)
 
 Master -> Main argument
  - https://twitter.com/shindashis/status/1671906718635155457
+
+ 
 
 Conflicts (17)
  - (general) https://twitter.com/gyurisc/status/1671731749695397888
@@ -165,33 +171,111 @@ Window's Users
 
 - Intro
 - Jokes
-    - The Name and The Theme
+    - The Name
+        - Need a Joke
+        - Jit -> Gif
+        - First of all you've been saying wrong
+        - Git is an insult
+        - Jit is a version control system
+    - no more debating merge VS rebasing
+        - no rebasing on fridays or weekends, or major federal holidays
+        - no rebasing or merging on mondays before 11AM montana time
+            - I don't care Tom if you refactored the whole app into Rust this weekend
+              we get it you're a genius
+    - What about conflicts
+        - simple:
+            - when merging, you always take the developer with the older twitter account
+            - when rebasing, "Since theirs as ours and ours as theirs,
+            you will use the youngest github (or gitlab) account for merge"
+        - So you never have to worry about that again.
+        - It can be automated
+    - if the conflict is within 10 mins, you can challenge the conflictee to typeracer,
+       fastest merges first
+        - marquees of queensbury rules
+       - unless chara-chorded keyboard, in that case you flip a coin
+        
+    - Git Branching & naming Rules
+        - You start the week with 5 branches, Juniors get 2
+            - Every meeting you schedule, or time you suggest rewriting something in Rust
+            you lose a branch
+            When you're out of branches, you have to work off master.
+        - Branches don't roll out week-to-week
+        - if you don't use all your branches, 
+          - you can have to groom the Jira backlog for 1 hour per unused branch.
+    
+    - We got to talk about commit message:
+        - no more: "fixes bug" at midnight commit messages allowed.
+        - All commit messages should rhyme
     - Commit Messages & Default Editor
-    - Git Branch naming Rules
-    - BAN rebase VS merge Argument
-        - Merge Conflicts & Rebasing
+        - fully configured neovim, to theprimeagans detailed speicfications,
+          69.420 -> Copilot, telescope, treesitter, harpoon, undotree, fully configred LSP
+        - a fully configured waifu in the background
+
+    - submodules:
+        - if you suggestion submodules, all changes will be in your name,
+        until the next person suggests submodules
+    
+    - Git Flow BANNED - rant
+        - David Farley
+        - Git Flow is Scrum Courses for DevOps nerds
+        - Git Flow -> is an MLM
+    
+    - The Internals + Degree Joke
+        - and I don't have a plumbing degree, if you need to git bisect reflogs,
+          new rule: don't mess up our entire git history
+          just call the Wizard Tom.
+        - Don't even try
+    
+    - Using GUI BANNED - rant
+    - GUI VS CLI
+        -> Lazy Git
+        -> GUI in terminal
+    
+        
     - git blame/praise is now named git who
+        - I'll praise it after I find out who wrote it. If it's that hotshot tom, then its blame.
     - git cherry-pick is now called git yoink
-    - --force calls HR
-    - Using Submodules BANNED
-    - Using GUI BANNED
-    - Git Flow BANNED
-    - Precommit Hooks tweets
+    
     - .gitignore + .gitwatch
+        in addition to the gitignore theres a gitwatch.
+        IF I WANT TO TRACK NODE_MODULE, I WILL TELL YOU I WANNT TRACK NODE_MODULES
+        node_modules
+        .env
+        .DS_Store
+        out
+        tmp/
+        build/
+        
+    
+    - Precommit Hooks tweets
+        - The only precommit hook we have, checks all repos for precommits,
+          and if it finds one, you're on call for the next 24 days.
+          if you are caught using -n, you're on call for all major WoW releases.
+          all triple-AAA game launc
+
+- Maybe: Final rule, now that we've laid out the plan to fix Git, no suggestion of VCSs,
+conversation closed.
+          
+- --force calls HR
+   - if --force-with-lease is used, it calls the police
+        (copilot wrote that joke)
+    
 - Outro w/ C++ tweet
 
 ## Script
 
 ### Intro
 
-Git has won the version control wars
+I heard you, 500 responses on why everyon's favorite VCS sucks.
+
+But it how did it win the version control wars!
 
 New programmers don't even know the difference between Github and Git
 
 Yet everyday there are millions of juniors around the world struggling with merge conflicts.
 Making repos that look like a game of Guitar Hero
 
-Many have tried to fix Git before: 
+Many have tried to fix Linus's Mad creation before: 
 
 Papers have been written
 https://homes.cs.washington.edu/~rjust/courses/CSE403/gitless.pdf
@@ -213,3 +297,9 @@ Next this themeing: it's half tree based and half toliet based
 ### Outro
 
 Now I'm now going to implement any of this, that's left as an excercise for the viewer.
+
+I started trying to do some of this in C++
+
+...but now I'm trying to fix that language first.
+
+Respond to the tweet here, here
