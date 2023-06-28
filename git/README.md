@@ -90,7 +90,7 @@ Hub (4)
 Master -> Main argument
  - https://twitter.com/shindashis/status/1671906718635155457
 
- 
+
 
 Conflicts (17)
  - (general) https://twitter.com/gyurisc/status/1671731749695397888
@@ -170,6 +170,18 @@ Window's Users
 ## Outline
 
 - Intro
+I heard you, 500 responses on why everyon's favorite VCS sucks.
+Merge vs Rebase
+Submodules
+Conflicts
+Branching
+Commit Messages
+Hooks
+Using a GUI vs CLI
+Cherry-picking
+Force Pushing
+Rerere, Reflog, bisect?
+
 - Jokes
     - The Name
         - Need a Joke
@@ -193,16 +205,23 @@ Window's Users
        fastest merges first
         - marquees of queensbury rules
        - unless chara-chorded keyboard, in that case you flip a coin
-        
+
+    What about Force pushing?
+    - --force calls HR
+        (meet with karen)
+       - if --force-with-lease is used, it calls the police
+            (copilot wrote that joke)
+
     - Git Branching & naming Rules
         - You start the week with 5 branches, Juniors get 2
             - Every meeting you schedule, or time you suggest rewriting something in Rust
             you lose a branch
             When you're out of branches, you have to work off master.
         - Branches don't roll out week-to-week
-        - if you don't use all your branches, 
+        - if you don't use all your branches,
           - you can have to groom the Jira backlog for 1 hour per unused branch.
-    
+          - 1 day of on call support
+
     - We got to talk about commit message:
         - no more: "fixes bug" at midnight commit messages allowed.
         - All commit messages should rhyme
@@ -214,28 +233,28 @@ Window's Users
     - submodules:
         - if you suggestion submodules, all changes will be in your name,
         until the next person suggests submodules
-    
+
     - Git Flow BANNED - rant
         - David Farley
         - Git Flow is Scrum Courses for DevOps nerds
         - Git Flow -> is an MLM
-    
+
     - The Internals + Degree Joke
         - and I don't have a plumbing degree, if you need to git bisect reflogs,
           new rule: don't mess up our entire git history
           just call the Wizard Tom.
         - Don't even try
-    
+
     - Using GUI BANNED - rant
     - GUI VS CLI
         -> Lazy Git
         -> GUI in terminal
-    
-        
+
+
     - git blame/praise is now named git who
         - I'll praise it after I find out who wrote it. If it's that hotshot tom, then its blame.
     - git cherry-pick is now called git yoink
-    
+
     - .gitignore + .gitwatch
         in addition to the gitignore theres a gitwatch.
         IF I WANT TO TRACK NODE_MODULE, I WILL TELL YOU I WANNT TRACK NODE_MODULES
@@ -245,8 +264,7 @@ Window's Users
         out
         tmp/
         build/
-        
-    
+
     - Precommit Hooks tweets
         - The only precommit hook we have, checks all repos for precommits,
           and if it finds one, you're on call for the next 24 days.
@@ -255,19 +273,16 @@ Window's Users
 
 - Maybe: Final rule, now that we've laid out the plan to fix Git, no suggestion of VCSs,
 conversation closed.
-          
-- --force calls HR
-   - if --force-with-lease is used, it calls the police
-        (copilot wrote that joke)
-    
+
 - Outro w/ C++ tweet
 
 ## Script
 
 ### Intro
 
-I heard you, 500 responses on why everyon's favorite VCS sucks.
 
+/*
+ * NONE OF THIS
 But it how did it win the version control wars!
 
 New programmers don't even know the difference between Github and Git
@@ -275,7 +290,7 @@ New programmers don't even know the difference between Github and Git
 Yet everyday there are millions of juniors around the world struggling with merge conflicts.
 Making repos that look like a game of Guitar Hero
 
-Many have tried to fix Linus's Mad creation before: 
+Many have tried to fix Linus's Mad creation before:
 
 Papers have been written
 https://homes.cs.washington.edu/~rjust/courses/CSE403/gitless.pdf
@@ -286,8 +301,9 @@ all with little adoption!
 New GUI clients pop-up everyday, so grifters can pump out: "Top 10 Git GUI clients for developers in 2023"
 
 But it's time I lay down the law, and fix this mess Linus got us into.
+*/
 
-### Jokes 
+### Jokes
 
 First Things First:
     The name git: it's an insult!
